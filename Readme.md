@@ -14,6 +14,11 @@ samtools view -b -T reference.fasta -o output-file.bam input_file.cram
 ```
 conda create -n my.environment
 ```
+<b>SubSet `bam` file </b>
+```
+samtools view input.bam "chr1" -b > subset.chr1.bam
+samtools index subset.chr1.bam
+```
 
 * Activate conda env
 
