@@ -40,10 +40,12 @@ samtools index subset.chr1.1000_1500.bam
 ```
 
 <b> Convert a `fastq` file to a `fasta` file </b>
+<br>
+<br>
 For this task, we will use a `python` script that use module `Bio`
  - This script requieres the next arguments:
    - <b>`fastq` input:</b> This input is indicated with the argument `-i`
-   - - <b>`fasta` output:</b> This input is indicated with the argument `-o`
+   - <b>`fasta` output:</b> This input is indicated with the argument `-o`
 ```
 cd bin/PyScripts/
 python3 FastqToFasta.py -i /mnt/Guanina/lmorales/Public/Ustilago/data/fastq/clean/2021EE37_R1_clean.fastq.gz -o /mnt/Guanina/lmorales/Public/Ustilago/data/fastq/clean/asFasta/2021EE37_R1_clean.fasta
