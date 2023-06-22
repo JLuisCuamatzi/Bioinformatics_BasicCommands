@@ -7,6 +7,13 @@ samtools view -b -T reference.fasta -o output-file.bam input_file.cram
 
 ```
 
+extract depth coverage
+
+```
+samtools depth -a -Q 30 input.bam > output.Q30.depth
+
+```
+
 <b>Conda commands</b>
 
 * Create environment
