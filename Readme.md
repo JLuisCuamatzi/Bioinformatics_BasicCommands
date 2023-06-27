@@ -1,5 +1,12 @@
 <b>Samtools commands</b>
 
+bam file to cram file
+```
+samtools view -T reference.fasta -C -o output-file.cram input_file.bam
+
+```
+
+
 cram to bam file
 
 ```
