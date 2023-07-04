@@ -1,6 +1,6 @@
 """
 @ autor: jcuamatzi
-@ execute: python3 /mnt/Guanina/lmorales/Public/Ustilago/bin/PyScripts/ToSGE/08_ExtractReadsFromBam.py -d /mnt/Guanina/lmorales/Public/Ustilago/ -f /mnt/Guanina/lmorales/Public/Ustilago/data/bam/SampleID.csv -s /mnt/Guanina/lmorales/Public/Ustilago/meta/Reads2Extract.20230620.csv
+@ execute: python3 08_ExtractReadsFromBam.py -d /main/directory/ -f SampleID.csv -s Reads2Extract.20230620.csv
 
 
 """
@@ -24,7 +24,7 @@ ag.add_argument("-i", "--inputsBam", default = "", help = "path to bam/cram file
 ##
 
 args = vars(ag.parse_args())
-directory = str(args["directory"]) # -d /mnt/Timina/lmorales/Public/Ustilago/C1/
+directory = str(args["directory"]) # 
 Samples_List = args["file"]
 SNP_List = str(args["snpList"])
 #batch = str(args["batch"])
