@@ -1,10 +1,11 @@
 """
-@ description: 
 @author: jcuamatzi
 
-@ how to execute this script:
-
-@ python3 
+Description: this script computes the GC percentage of a fasta sequence. This script can estimate the GC of a single sequence or multiple fasta sequences in the same file
+Each sequence must be indicated with a header (>).
+----
+USAGE:
+python3 GC_MultiFasta.py 
 """
 
 # load module
